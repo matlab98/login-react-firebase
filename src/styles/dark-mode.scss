@@ -1,0 +1,21 @@
+:root {
+  --dark-background: #101626;
+  --dark-shadow-toogle: rgba(255, 255, 255);
+  --dark-color-icon: #ffffff;
+  --dark-text-color-nav-normal: #ffffff;
+  --dark-background-bar: #151c2e;
+}
+
+body.dark .main {
+  background: var(--dark-background);
+}
+
+body.dark .navigation,
+body.dark .Bar {
+  background: var(--dark-background-bar);
+}
+
+body.dark .navigation {
+  background: var(--dark-background);
+  border-left: 10px solid var(--dark-background);
+}
