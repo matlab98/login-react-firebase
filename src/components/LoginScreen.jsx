@@ -1,9 +1,7 @@
 import React from 'react';
 import { Formik, useFormik } from 'formik';
-import * as Yup from 'yup';
-import validator from 'validator';
-import { Link } from 'react-router-dom';
-import { startFacebookLogin, startGoogleLogin, startLoginEmailPassword } from '../actions/authActions';
+
+import { startLoginEmailPassword } from '../actions/authActions';
 const Basic = () => {
   
   const validate = (values) => {

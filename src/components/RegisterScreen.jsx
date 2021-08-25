@@ -1,7 +1,6 @@
 import React from "react";
 import { Formik, useFormik } from "formik";
 import * as Yup from "yup";
-import validator from "validator";
 
 const RegisterScreen = () => {
   const formik = useFormik({

@@ -8,9 +8,6 @@ export const types = {
     uiStartLoading: "[Ui] Start Loading",
     uiFinishLoading: "[Ui] Finish Loading",
 
-    searchMovie: "[Search] Search",
-    cleanSearch: "[Search] Clean Search",
-
     addUser: "[User] Add User",
     updateUser: "[User] Update User",
     loadUser: "[User] Load User"
